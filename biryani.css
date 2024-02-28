@@ -1,0 +1,12 @@
+h1{
+    color:brown;
+}
+#f{
+    color:red;
+}
+body{
+    background-image: linear-gradient(to right bottom,yellow, lightyellow);
+    background-repeat:none ;
+    background-size: cover;
+}
+
