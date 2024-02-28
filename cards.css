@@ -1,0 +1,66 @@
+body{
+    margin:0;
+    padding:0;
+       
+      }
+    
+
+main{
+    /* background-color:grey; */
+   
+    display:flex;
+    justify-content: center;
+    
+}
+section{
+   
+    /* background-color: chocolate; */
+    width:80%;
+    display:flex;
+    justify-content: space-between;
+    
+}
+div{
+    background-color: gold;
+    width:25%;
+    overflow: hidden;
+}
+img{
+
+width:100%;
+height: 300px;
+transition: 2s;
+
+}
+h3{
+    color:Red;
+    text-align: center;
+}
+button{
+    width:100%;
+    height:30px;
+    background-color: greenyellow;
+    color:brown;
+    border:none;
+}
+img:hover{
+    /* transform:scale(1.2); */
+    filter:blur(20px);
+   
+    
+}
+.aish{
+    width:100%;
+    Position:relative;
+}
+.Title{
+    position:absolute;
+    top:50%;
+    left:40%;
+    display:none;
+}
+.aish:hover .Title{
+    display:block;
+}
+
+
